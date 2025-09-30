@@ -1,0 +1,76 @@
+1.	Tuliskan 4 perintah berbeda yang mengurangi nilai n dengan 1 
+Jawaban:
+•	n = n-1 
+•	--n  
+•	n-- 
+•	n -= 1
+
+2.	Evaluasi setiap ekspresi berikut! misal nilai m = 24 dan n =7
+Jawaban:
+a.	m - 8 - n -> 24 - 8 - 7 = 9
+b.	m = n = 3 -> Penugasan Berantai  (dari kiri ke kanan) -> n = 3, m = n, m = 3
+c.	m%n -> 24%7 = 3 
+d.	m%n++ 
+    •	Hitung n++ 
+        n++ -> n = n +1 
+        n++ -> 8
+    •	Masukkan hasil penyelesaian n++ ke
+        m%n++ -> 24%7 = 3
+e.	m%++n 
+    •	Hitung ++n
+        ++n -> n = n + 1
+        ++n -> 8
+    •	Masukkan hasil penyelesaian ++n ke
+        m%++n -> 24%8 = 0
+f.	++m - n—
+    •	Hitung ++m 
+        ++m-> m = m + 1-> 25
+    •	Hitung n—
+        n-- -> n = n - 1
+        n-- -> 6
+    •	Masukka hasil penyelesaian ++m dan n—ke
+        ++m - n— -> 25 - 7 = 18
+g.	m += n -= 2 
+    •	Hitung n -= 2 
+        n -= 2 -> n = n - 2 -> n = 5
+    •	Masukkan hasil penyelesaian n -= 2 ke m+= n
+        m += n -> m = m + n -> m = 29
+
+3.	Tuliskan jadi satu perintah dri dua operasi berikut:
+Jawaban:
+z = z - (x+y)
+y = y + 1
+menjadi: 
+z = z - (x+ (y+1))
+
+4.	Tentukan hasilnya dan uraikan perintah berikut dengan nilai m = 5 dan n = 2
+Jawaban:
+a.	m* = n++;
+    •	Hitung n++ 
+        n++-> n = n + 1 -> n = 3
+    •	Masukkan hasil perhitungan n++ ke
+        m *= n++ -> 5*2=10
+b.	m+ = --n   
+    •	Hitung --n
+        --n-> n = n - 1 -> n = 1
+    •	Masukkan hasil perhitungan --n ke
+        m += --n -> 5+1= 6 -> m = 6
+
+5.	Tentukanlah hasil dari perintah perintah berikut: 
+int x,y,z;
+x = y = z = 5;
+x* = y+ = z- = 1;
+Jawaban:
+•	Hitung z  -= 1
+    z -= 1 -> z = z - 1 -> z = 4 
+•	Hitung y += z
+    y += z -> y = 5 + 4 -> 9
+•	Hitung x *= y 
+    x *= y -> x = 5 * 9 -> 45
+
+6.	Seorang programmer menuliskan pernyataan sebagai berikut, setelah mendefinisikan semua nama yang dipakai sebagai tipe real/float
+Dua = tujuh + lima
+Cinta = toto + tita
+Apa komentar anda?
+Jawaban: 
+Program tidak akan berjalan/error karena tipe data tidak sesuai, seharusnya tipe data yang digunakan adalah string.
