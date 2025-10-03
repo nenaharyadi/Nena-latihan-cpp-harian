@@ -1,3 +1,9 @@
+/*
+Nama : Nena Haryadi Puspanegara
+NPM  : 140810240034
+Tanggal : 02 Oktober 2025
+*/
+
 #include <iostream>
 using namespace std;
 
