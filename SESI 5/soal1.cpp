@@ -24,5 +24,5 @@ int main(){
     cout << "Rata-rata suhu selama " << jmlJam << " jam adalah " << rataSuhu << endl;
 
     system("pause");
-    return 0;
+    return 0; 
 }

@@ -30,7 +30,7 @@ int main() {
             last_minute = localTime.tm_min;
         }
 
-        this_thread::sleep_for(chrono::seconds(1));
+        this_thread sleep_for(chrono::seconds(1));
     }
     return 0;
 }
